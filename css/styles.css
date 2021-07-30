@@ -135,6 +135,15 @@ ul,p {
 .contact-list .item{
   margin-left: 50px;
 }
+.icon-envelope-hover{
+  background-color: royalblue;
+}
+
+.icon-smartphone{
+  background-color: red;
+  width: 10px;
+  height: 16px;
+}
 
 .contact-link{
  display: block;
