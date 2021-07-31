@@ -242,19 +242,7 @@ ul,p {
  padding-bottom: 94px;
 }
 
-.one::before{
- display: block;
- content: "";
- height: 120px;
- background-size: contain;
- background-repeat: no-repeat;
- background-position: center;
- background-color: var(--hero-text-color);
- 
-}
-.icon-antenna ::before{
-background-image: url("../images/icons.svg#icon-antenna");
-}
+
 
 .section-list{
   display: flex;
@@ -267,10 +255,17 @@ background-image: url("../images/icons.svg#icon-antenna");
   margin-right: 30px;
 }
 
-
+.five{
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+  background: #F5F4FA;
+border-radius: 4px;
+}
 
 .section-title{
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 10px;
 
   color: var(--title-text-color) ;
