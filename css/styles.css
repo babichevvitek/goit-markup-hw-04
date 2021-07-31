@@ -135,13 +135,18 @@ ul,p {
 .contact-list .item{
   margin-left: 50px;
 }
+.item a{
+ display: flex; 
+}
 .icon-envelope-hover{
-  background-color: royalblue;
+  margin-right: 10px;
+  fill: currentColor;
 }
 
+
 .icon-smartphone{
-  background-color: red;
- 
+ margin-right: 10px;
+ fill: currentColor ;
 }
 
 .contact-link{
@@ -167,17 +172,30 @@ ul,p {
   text-decoration: none;
 }
 
+
         /* Hero */
 
 .hero{
   background: var(--box-text-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  height: 600px;
+  min-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+    ),
   
+  url(../images/Imageoverlay.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
 }
 
 .center-hero {
- 
 
   text-align: center;
   margin-left: auto;
@@ -224,20 +242,32 @@ ul,p {
  padding-bottom: 94px;
 }
 
+.one::before{
+ display: block;
+ content: "";
+ height: 120px;
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: var(--hero-text-color);
+ 
+}
+.icon-antenna ::before{
+background-image: url("../images/icons.svg#icon-antenna");
+}
+
 .section-list{
   display: flex;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.one{
-  width: 270px;
-  line-height: 3%;
-}
 
 .one:not(:last-child) {
   margin-right: 30px;
 }
+
+
 
 .section-title{
   margin-top: 0;
@@ -261,6 +291,7 @@ ul,p {
  font-size: 14px;
  line-height: 1.71;
  letter-spacing: 0.03em;
+ width: 270px;
 }
 
 
@@ -352,6 +383,22 @@ ul,p {
   display: flex;
   background: var(--fon-text-color);
   list-style: none;
+}
+.social-link{
+  display: block;
+ 
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 30px;
+  margin-left: 32px;
+  margin-right: 10px;
+  
+}
+.icon-Ellipse{
+ color: var(--feature-text-color);
+}
+.icon-twitter{
+  fill: currentColor;
 }
 
 
