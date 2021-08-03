@@ -390,6 +390,7 @@ background-color: var(--hero-text-color);
 .profession{
  color: var(--feature-text-color);
  font-family: Roboto;
+ margin-bottom: 16px;
  font-size: 16px;
  line-height: 1.18;
  text-align: center;
