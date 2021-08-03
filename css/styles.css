@@ -39,7 +39,10 @@ ul,p {
   align-items: center;
   justify-content: center;
 }
-
+.logo-link{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .website{
   color: var(--accent-color) ;
   font-family: Raleway;
@@ -270,17 +273,20 @@ background-color: var(--hero-text-color);
   margin-right: 30px;
 }
 
+
 .five{
   display: flex;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  align-items: center;
   justify-content: center;
   background: #F5F4FA;
    border-radius: 4px;
 }
 
 .section-title{
-  margin-top: 30px;
+ 
   margin-bottom: 10px;
 
   color: var(--title-text-color) ;
@@ -405,7 +411,7 @@ background-color: var(--hero-text-color);
  
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
+ 
   border: none;
   padding: 0;
  width: 44px;
@@ -414,6 +420,13 @@ background-color: var(--hero-text-color);
  border-radius: 50%;
  background-color: rgba(255, 255, 255, 0.1);
 } 
+.social-item{
+  margin-right: 10px;
+}
+.social-item:last-child{
+  margin-right: 0;
+}
+
 .social-icon{
   width: 20px;
   height: 20px;
@@ -461,7 +474,7 @@ fill: var(--hero-text-color);
 .clients-item{
   margin-left: 0;
   margin-right: 30px;
-  border: 1px solid #AFB1B8;
+ 
   border-radius: 4px;
   width: 170px;
   height: 92px;
@@ -684,8 +697,10 @@ fill: var(--hero-text-color);
 .page-header {                                                                                       
   border-bottom: 1px solid #ECECEC;
 } 
-.main{
+.annexes{
   padding-top: 94px;
+}
+.poster{
   padding-bottom: 94px;
 }
 
@@ -725,8 +740,8 @@ fill: var(--hero-text-color);
  }
 
 
-.buttons-list:hover,
-.buttons-list:focus{
+ .buttons-list:hover,
+ .buttons-list:focus{
  color: var(--hero-text-color);
  background-color:var(--accent-color) ;
  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -746,10 +761,8 @@ fill: var(--hero-text-color);
  box-sizing: border-box;
   width: 370px;
 }
-.design:hover{
- background: #FFFFFF;
- border: 1px solid #EEEEEE;
- box-sizing: border-box;
+.design:hover,
+.design:focus{
  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 }
